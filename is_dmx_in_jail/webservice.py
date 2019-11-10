@@ -8,9 +8,7 @@ ask = Ask(app, '/')
 
 @ask.launch
 def start_skill():
-    dmx_jail, message = dmx_status()
-    status = "Free as a bird!" if 'not' in message else 'In the clink.'
-    return statement(message).simple_card("DMX Incarceration status:", status)
+    return statement(dmx_status()[0])
 
 
 if __name__ in "__main__":
