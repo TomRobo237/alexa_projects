@@ -8,7 +8,9 @@ ask = Ask(app, '/alexa/dmx')
 
 @ask.launch
 def start_skill():
-    return statement(dmx_status()[0])
+    message, jailbool = dmx_status()
+    status = "Free as a bird!" if jailbool is False else 'In the clink.'
+    return statement(message).simple_card("DMX Incarceration status:", status)
 
 
 if __name__ in "__main__":
