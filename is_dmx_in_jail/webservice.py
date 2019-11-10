@@ -3,7 +3,7 @@ from flask_ask import Ask, statement
 from src.dmx_in_jail_status import dmx_status
 
 app = Flask(__name__)
-ask = Ask(app, '/alexa/dmx')
+ask = Ask(app, '/')
 
 
 @ask.launch
