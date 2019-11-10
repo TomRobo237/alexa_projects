@@ -12,4 +12,4 @@ def start_skill():
 
 
 if __name__ in "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
