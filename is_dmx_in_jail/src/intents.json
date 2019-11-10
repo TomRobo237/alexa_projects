@@ -1,0 +1,42 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "is dmx in jail",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Any",
+                    "slots": [
+                        {
+                            "name": "anything",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "Jail"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
