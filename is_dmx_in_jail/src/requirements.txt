@@ -2,3 +2,4 @@ flask-ask>=0.9.8
 feedparser>=5.2.1
 cryptography==2.1.4
 bs4>=0.0.1
+gunicorn>=20.0.0
