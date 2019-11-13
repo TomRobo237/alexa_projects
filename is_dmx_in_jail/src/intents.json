@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "is dmx in jail",
+            "invocationName": "dmx jail",
             "intents": [
                 {
                     "name": "AMAZON.FallbackIntent",
@@ -25,13 +25,9 @@
                 },
                 {
                     "name": "Any",
-                    "slots": [
-                        {
-                            "name": "anything",
-                            "type": "AMAZON.SearchQuery"
-                        }
-                    ],
+                    "slots": [],
                     "samples": [
+                        "Status",
                         "Jail"
                     ]
                 }
