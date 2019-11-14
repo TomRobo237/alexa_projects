@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "dmx jail",
+            "invocationName": "d. m. x. jail",
             "intents": [
                 {
                     "name": "AMAZON.FallbackIntent",
