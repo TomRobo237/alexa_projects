@@ -1,0 +1,5 @@
+gunicorn==19.9.0
+flask
+flask_ask
+Werkzeug==0.11.15
+bs4
